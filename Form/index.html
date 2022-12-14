@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> 
+            Form 01
+        </title>
+    
+    </head> 
+    <body> 
+        <form>
+            <label for = "fname">First name</label><br> 
+            <input type="text" id="fname" name="fname"> <br> 
+            <label for="lname">Last name</label><br>
+            <input type="text" id="lname" name="lname"><br>
+            <label for="dob">Date of Birth:</label><br>
+            <input type="date" id="dob" name="dob"><br>
+            <button onclick="handleForm()">Handle Form</button>
+        </form>
+        <script>
+            function handleForm() {
+                let elFirstName = document.getElementById("fname")
+                let elLastName = document.getElementById("lname")
+                let firstName = elFirstName.value
+                let lastName = elLastName.value
+                let fullName = firstName+" "+lastName
+                console.log(fullName)
+                let elFullName = document.getElementById("fullname")
+                elFullName.innerHTML = fullName
+            }
+          </script>
+    </body>
