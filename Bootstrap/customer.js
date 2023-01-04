@@ -2,7 +2,7 @@ var customers = []
 
 
 $(document).ready(function() {
-    console.log("Welcome to GG Store!!")
+    console.log("Welcome to Organ Store!!")
     // load data
     $.ajax({
         url: "data.json",
