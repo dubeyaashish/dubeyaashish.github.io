@@ -1,0 +1,42 @@
+.product_table center{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.product_table {
+    border: 1.5px groove #7e046a;
+}
+
+.product_table th {
+    background-color: #eabaff;
+    color:#140b14;
+    font-weight: bolder;
+}
+
+.product_table tbody td {
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.product_table tfoot {
+    background-color: #f3cffc;
+}
+
+.text_center {
+    text-align: center;
+}
+
+.text_right {
+    text-align: right;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+.icon { 
+    width: 0.9em;
+} 
