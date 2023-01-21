@@ -18,7 +18,7 @@ var products = [
     {
         name: "Logitec Gaming Mouse",
         quantity: 1,
-        ppu: 4000
+        ppu: 5000
     }
 ]
 
